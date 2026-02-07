@@ -2,7 +2,7 @@ FROM ghcr.io/cuhk-haosun/code-docker-base:main
 
 SHELL ["/bin/bash", "-euo", "pipefail", "-c"]
 
-ARG DORADO_VERSION=1.3.1
+ARG DORADO_VERSION=0.9.6
 ARG DORADO_TARBALL="dorado-${DORADO_VERSION}-linux-x64.tar.gz"
 ARG DORADO_URL="https://cdn.oxfordnanoportal.com/software/analysis/${DORADO_TARBALL}"
 
